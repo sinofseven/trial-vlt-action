@@ -3,7 +3,6 @@
     "registries": {
       "npm": "https://registry.vlt.io/sinofseven/npm/"
     },
-    "default-registry-alias": "npm",
-    "registry": "https://registry.vlt.io/sinofseven/npm/"
+    "default-registry-alias": "npm"
   }
 }
