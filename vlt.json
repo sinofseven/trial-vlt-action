@@ -1,7 +1,0 @@
-{
-  "config": {
-    "registries": {
-      "npm": "https://npm.flatt.tech/"
-    }
-  }
-}
