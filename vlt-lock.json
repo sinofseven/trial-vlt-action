@@ -11,7 +11,7 @@
     "~npm~@lineiconshq+free-icons@1.0.6": [0,"@lineiconshq/free-icons","sha512-wWT7v+SEKT5Y3+2u4icjiyXP7Et91tLvrvNAgrfUtQhI7zSynCJIPx75bgkrCRHYl914DYx0tvVl9YT303R6NQ=="],
     "~npm~@lineiconshq+react-lineicons@1.0.5": [0,"@lineiconshq/react-lineicons","sha512-GfUBSMLoL7siDOmVwDTTGwGCREu7Q/g7PAzqoMII+SF6ZWQS3ZfTLupNcQkTx4R6+mTibz5OIoWHCseVF8WsMQ=="],
     "~npm~meilisearch@0.53.0": [0,"meilisearch","sha512-nG4VXbEOSzUmtbfsgOo+t6yX1ECEgXaT4hC0ap9MBpQGK5xwT+NWYDENYsKWR75cVaWaAqva+ok4zHlgtdXlLw=="],
-    "~npm~react@19.2.8": [0,"react"]
+    "~npm~react@19.2.8": [0,"react","sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw=="]
   },
   "edges": {
     "file~_d @lineiconshq/free-icons": "prod ^1.0.6 ~npm~@lineiconshq+free-icons@1.0.6",
