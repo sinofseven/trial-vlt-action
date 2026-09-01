@@ -14,7 +14,7 @@ jobs:
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           node-version-file: .node-version
-      - uses: vltpkg/setup-vlt@34ed82786290f7273cdc1442ab01df5cfdd6d538 # v1.0.1
+      - uses: vltpkg/setup-vlt@33ed82786290f7273cdc1442ab01df5cfdd6d538 # v1.0.1
       - run: vlt ci
         env:
           VLT_TOKEN: ${{ secrets.VLT_TOKEN }}
