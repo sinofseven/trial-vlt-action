@@ -1,7 +1,5 @@
 {
   "config": {
-    "registries": {
-      "npm": "https://registry.vlt.io/sinofseven/npm/"
-    }
+    "registry": "https://registry.vlt.io/sinofseven/npm/"
   }
 }
