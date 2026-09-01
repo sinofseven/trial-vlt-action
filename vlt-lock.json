@@ -1,21 +1,24 @@
 {
   "lockfileVersion": 1,
   "options": {
-    "registry": "https://registry.vlt.io/sinofseven/npm/"
+    "registry": "https://registry.vlt.io/sinofseven/npm/",
+    "registries": {
+      "npm": "https://registry.vlt.io/sinofseven/npm/"
+    }
   },
   "nodes": {
-    "~https_c++registry.vlt.io+sinofseven+npm+~@lineiconshq+free-icons@0.0.1~peer.1": [0,"@lineiconshq/free-icons","sha512-fnWSSjIv/4vojAKsBZXluhMRr1LIb5p85IzXK0Dh27KF9qXxz89HZJrnvXH71ZqMCP+NFzo/xh0dJsv8PT+3xg=="],
-    "~https_c++registry.vlt.io+sinofseven+npm+~@lineiconshq+free-icons@1.0.6": [0,"@lineiconshq/free-icons","sha512-wWT7v+SEKT5Y3+2u4icjiyXP7Et91tLvrvNAgrfUtQhI7zSynCJIPx75bgkrCRHYl914DYx0tvVl9YT303R6NQ=="],
-    "~https_c++registry.vlt.io+sinofseven+npm+~@lineiconshq+react-lineicons@1.0.5": [0,"@lineiconshq/react-lineicons","sha512-GfUBSMLoL7siDOmVwDTTGwGCREu7Q/g7PAzqoMII+SF6ZWQS3ZfTLupNcQkTx4R6+mTibz5OIoWHCseVF8WsMQ=="],
-    "~https_c++registry.vlt.io+sinofseven+npm+~meilisearch@0.53.0": [0,"meilisearch","sha512-nG4VXbEOSzUmtbfsgOo+t6yX1ECEgXaT4hC0ap9MBpQGK5xwT+NWYDENYsKWR75cVaWaAqva+ok4zHlgtdXlLw=="],
-    "~https_c++registry.vlt.io+sinofseven+npm+~react@19.2.8": [0,"react","sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw=="]
+    "~npm~@lineiconshq+free-icons@0.0.1~peer.1": [0,"@lineiconshq/free-icons","sha512-fnWSSjIv/4vojAKsBZXluhMRr1LIb5p85IzXK0Dh27KF9qXxz89HZJrnvXH71ZqMCP+NFzo/xh0dJsv8PT+3xg=="],
+    "~npm~@lineiconshq+free-icons@1.0.6": [0,"@lineiconshq/free-icons","sha512-wWT7v+SEKT5Y3+2u4icjiyXP7Et91tLvrvNAgrfUtQhI7zSynCJIPx75bgkrCRHYl914DYx0tvVl9YT303R6NQ=="],
+    "~npm~@lineiconshq+react-lineicons@1.0.5": [0,"@lineiconshq/react-lineicons","sha512-GfUBSMLoL7siDOmVwDTTGwGCREu7Q/g7PAzqoMII+SF6ZWQS3ZfTLupNcQkTx4R6+mTibz5OIoWHCseVF8WsMQ=="],
+    "~npm~meilisearch@0.53.0": [0,"meilisearch","sha512-nG4VXbEOSzUmtbfsgOo+t6yX1ECEgXaT4hC0ap9MBpQGK5xwT+NWYDENYsKWR75cVaWaAqva+ok4zHlgtdXlLw=="],
+    "~npm~react@19.2.8": [0,"react"]
   },
   "edges": {
-    "file~_d @lineiconshq/free-icons": "prod ^1.0.6 ~https_c++registry.vlt.io+sinofseven+npm+~@lineiconshq+free-icons@1.0.6",
-    "file~_d @lineiconshq/react-lineicons": "prod ^1.0.5 ~https_c++registry.vlt.io+sinofseven+npm+~@lineiconshq+react-lineicons@1.0.5",
-    "~https_c++registry.vlt.io+sinofseven+npm+~@lineiconshq+free-icons@0.0.1~peer.1 react": "peer ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 ~https_c++registry.vlt.io+sinofseven+npm+~react@19.2.8",
-    "~https_c++registry.vlt.io+sinofseven+npm+~@lineiconshq+free-icons@1.0.6 meilisearch": "prod ^0.53.0 ~https_c++registry.vlt.io+sinofseven+npm+~meilisearch@0.53.0",
-    "~https_c++registry.vlt.io+sinofseven+npm+~@lineiconshq+react-lineicons@1.0.5 react": "peer ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 ~https_c++registry.vlt.io+sinofseven+npm+~react@19.2.8",
-    "~https_c++registry.vlt.io+sinofseven+npm+~@lineiconshq+react-lineicons@1.0.5 @lineiconshq/free-icons": "prod ^0.0.1 ~https_c++registry.vlt.io+sinofseven+npm+~@lineiconshq+free-icons@0.0.1~peer.1"
+    "file~_d @lineiconshq/free-icons": "prod ^1.0.6 ~npm~@lineiconshq+free-icons@1.0.6",
+    "file~_d @lineiconshq/react-lineicons": "prod ^1.0.5 ~npm~@lineiconshq+react-lineicons@1.0.5",
+    "~npm~@lineiconshq+free-icons@0.0.1~peer.1 react": "peer ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 ~npm~react@19.2.8",
+    "~npm~@lineiconshq+free-icons@1.0.6 meilisearch": "prod ^0.53.0 ~npm~meilisearch@0.53.0",
+    "~npm~@lineiconshq+react-lineicons@1.0.5 react": "peer ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 ~npm~react@19.2.8",
+    "~npm~@lineiconshq+react-lineicons@1.0.5 @lineiconshq/free-icons": "prod ^0.0.1 ~npm~@lineiconshq+free-icons@0.0.1~peer.1"
   }
 }
