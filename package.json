@@ -1,0 +1,14 @@
+{
+  "name": "trial-vlt-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": {
+    "name": "sinofseven",
+    "email": "em.s.00001@gmail.com"
+  },
+  "dependencies": {
+    "@lineiconshq/free-icons": "^1.0.6",
+    "@lineiconshq/react-lineicons": "^1.0.5"
+  }
+}

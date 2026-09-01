@@ -1,0 +1,13 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs: 
+  test_install:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: vltpkg/setup-vlt@33ed82786290f7273cdc1442ab01df5cfdd6d538 # v1.0.1
