@@ -2,6 +2,7 @@
   "config": {
     "registries": {
       "npm": "https://registry.vlt.io/sinofseven/npm/"
-    }
+    },
+    "default-registry-alias": "npm"
   }
 }
