@@ -16,3 +16,4 @@ jobs:
       - run: vlt ci
         env:
           VLT_TOKEN: ${{ secrets.VLT_TOKEN }}
+      - run: /usr/local/bin/node --version
