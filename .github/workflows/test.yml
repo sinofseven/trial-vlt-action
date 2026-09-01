@@ -19,3 +19,4 @@ jobs:
       - run: vlt ci
         env:
           VLT_TOKEN: ${{ secrets.VLT_TOKEN }}
+          VLT_https_registry_vlt_io_sinofseven_main: ${{ github.VLT_TOKEN }}
