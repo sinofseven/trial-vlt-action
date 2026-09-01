@@ -1,0 +1,8 @@
+{
+  "config": {
+    "registries": {
+      "npm": "https://npm.flatt.tech/",
+      "main": "https://registry.vlt.io/sinofseven/main/"
+    }
+  }
+}
